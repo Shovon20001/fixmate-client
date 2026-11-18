@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-label="laptop repair">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#173a52"/><stop offset="1" stop-color="#0f2a3d"/></linearGradient>
+<pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="14" cy="14" r="2" fill="#ffffff" fill-opacity=".09"/></pattern></defs>
+<rect width="800" height="460" fill="url(#g)"/><rect width="800" height="460" fill="url(#p)"/><rect x="250" y="110" width="300" height="190" rx="12" fill="#e3eaf0"/><rect x="264" y="124" width="272" height="162" rx="5" fill="#0f2a3d"/><path d="M200 318 H600 L575 345 H225 Z" fill="#9db0bf"/><rect x="300" y="160" width="120" height="10" rx="5" fill="#f26b1d"/><rect x="300" y="186" width="190" height="8" rx="4" fill="#5a7184"/><rect x="300" y="208" width="150" height="8" rx="4" fill="#5a7184"/></svg>

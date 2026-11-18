@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-label="electrical repair">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#173a52"/><stop offset="1" stop-color="#0f2a3d"/></linearGradient>
+<pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="14" cy="14" r="2" fill="#ffffff" fill-opacity=".09"/></pattern></defs>
+<rect width="800" height="460" fill="url(#g)"/><rect width="800" height="460" fill="url(#p)"/><circle cx="400" cy="230" r="140" fill="#27475c"/><path d="M425 100 L330 250 H400 L370 365 L475 205 H405 Z" fill="#f26b1d"/><circle cx="260" cy="120" r="6" fill="#9db0bf"/><circle cx="545" cy="330" r="6" fill="#9db0bf"/></svg>
