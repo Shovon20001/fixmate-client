@@ -1,0 +1,29 @@
+"use client";
+import { useCallback, useEffect, useState } from "react";
+
+/** Runs an async loader on mount (and when deps change). Returns { data, loading, error, reload }. */
+export function useAsync(loader, deps = []) {
+  const [state, setState] = useState({ data: null, loading: true, error: null });
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const run = useCallback(loader, deps);
+
+  const load = useCallback(
+    async (silent = false) => {
+      if (!silent) setState((s) => ({ ...s, loading: true, error: null }));
+      try {
+        const data = await run();
+        setState({ data, loading: false, error: null });
+      } catch (error) {
+        setState({ data: null, loading: false, error });
+      }
+    },
+    [run]
+  );
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  return { ...state, reload: () => load(true) };
+}
